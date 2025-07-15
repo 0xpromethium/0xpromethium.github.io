@@ -49,7 +49,10 @@ With memory complexity we face a similar issue -- we may define memory consumpti
 
 ## Problem Complexity
 
-*See also [P vs NP](p_vs_np.md).*
+### [P vs NP]
+The class P stands for polynomial and is defined as all problems that can be solved by an algorithm run on a deterministic Turing machine (a theoretical computer) with a polynomial time complexity.
+
+The class NP stands for non-deterministic polynomial and is defined as all problems that can be solved by an algorithm run on a non-deterministic Turing machine with a polynomial time complexity. I.e. the definition is the same as for the P class with the difference that the Turing machine is non-deterministic -- such a machine is faster because it can make kind of "random correct guesses" that lead to the solution more quickly. Non-deterministic computers are only theoretical (at least for now), computers we have in real life cannot perform such randomly correct guesses. It is known that the solution to all NP problems can be verified in polynomial time even by a deterministic Turing machine, we just don't know if the solution can also be found this quickly.
 
 As said, problem complexity is tied to algorithm complexity; a complexity of specific problem (e.g. sorting an array, factorization of a number, searching a sorted list etc.) is determined by the best possible [algorithm](algorithm.md) that solves the problem (best in terms of analyzed complexity). Traditionally we use [Turing machines](turing_machine.md) and [formal languages](formal_language.md) to analyze problem complexity. Here we'll stay a bit informal and only mention some ideas.
 
