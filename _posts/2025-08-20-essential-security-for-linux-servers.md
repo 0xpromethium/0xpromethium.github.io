@@ -1,4 +1,10 @@
-# Essential security for Linux servers
+---
+layout: post
+title: "Essential security for Linux servers"
+date: 2025-08-20
+---
+
+<br>
 
 This small post will go through the baseline on how to secure a freshly installed Debian based Linux distro. The aim of this approach is to create an acceptable security baseline while not adding extra layers of complexity.
 
